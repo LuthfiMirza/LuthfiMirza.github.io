@@ -22,7 +22,7 @@ body{
     animation: rotate 6s infinite alternate linear;
 }
 
-.login-card{
+.eca-card{
     position: relative;
     z-index: 3;
     width: 100%;
@@ -34,27 +34,27 @@ body{
     text-align: center;
 }
 
-.login-card > h2{
+.eca-card > h2{
     font-size: 38px;
     font-weight: 400;
     margin: 0 0 6px;
 }
 
-.login-card > h3{
+.eca-card > h3{
     color:#e44b8d;
     margin: 0 0 30px;
     font-weight: 500;
     font-size: 1.5rem;
 }
 
-.login-form{
+.eca-form{
     width: 100%;
     margin: 0;
     display: grid;
     gap: 16px;
 }
 
-.login-form > h4{
+.eca-form > h4{
     color: rgba(0, 0, 0, 0.38);
     margin: 0 0 20px;
     font-weight: 500;
@@ -62,25 +62,12 @@ body{
 }
 
 
-.login-form > input, .login-form > button{
+.button{
     width: 100%;
     height: 50px;
 }
 
-.login-form > input {
-    border: 2px solid #ebebeb;
-    font-family: inherit;
-    font-size: 15px;
-    padding: 0 16px;
-    border-radius: 1.25rem;
-    transition: all 0.375s;
-}
-
-.login-form > input:hover{
-    border: 2px solid #10449A;
-}
-
-.login-form > button{
+.button{
     cursor: pointer;
     width: 100%;
     padding: 0 16px;
@@ -96,21 +83,14 @@ body{
     transition: all 0.375s;
 }
 
-.login-form > button:hover{
+.eca-form > button:hover{
     background: #10449A;
     
 }
 
-.login-form > a{
-    color: #216ce7;
-    font-size: 0.9rem;
-    text-align: left;
-    text-decoration: none;
-    margin-bottom: 6px;
-    transition: all 0.375s;
-}
 
-.login-form > a:hover{
+
+.eca-form > button:hover{
     color: #10449A;
 }
 
@@ -124,7 +104,7 @@ body{
     body{
         padding: 0;
     }
-    .login-card{
+    .eca-card{
         margin: 0;
         width: 350px;
     }
